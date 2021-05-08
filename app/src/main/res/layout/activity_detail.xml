@@ -18,16 +18,17 @@
         >
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/zuri_logo"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:src="@drawable/ic_fun_facts_logo_squre"
             />
         <TextView
             android:id="@+id/textTop"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/zuri_logo"
-            android:layout_marginTop="45dp"
+            android:layout_toEndOf="@id/zuri_logo"
+            android:layout_marginTop="26dp"
+            android:layout_marginStart="13dp"
             android:textStyle="bold"
             android:textColor="@color/purpleForApp"
             android:textSize="22sp"
@@ -43,7 +44,8 @@
         android:layout_marginTop="70dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/image_holder" />
 
     <TextView
         android:id="@+id/detailTextView"
