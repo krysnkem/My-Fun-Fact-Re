@@ -25,7 +25,7 @@ class DetailActivity : AppCompatActivity() {
         binding?.detailTextView?.text = detail
         binding?.logoImageView?.setImageResource(logo)
         title = name
-        binding?.textTop?.text = "Fun Fact about $name language."
+        binding?.textTop?.text = getString(R.string.return_text, name)
     }
     override fun onDestroy() {
         super.onDestroy()
