@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Fun facts</string>
+    <string name="app_name">Fun facts!</string>
     <string name="welcome_text">Learn fun facts of programming languages</string>
     <string name="welcome">welcome!</string>
     <string name="pick_a_language">Pick a language</string>
