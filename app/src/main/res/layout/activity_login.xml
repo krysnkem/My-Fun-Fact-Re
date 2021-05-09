@@ -28,7 +28,6 @@
         app:boxBackgroundColor="@color/white"
         app:boxStrokeColor="@color/purpleForApp"
 
-
         >
 
         <com.google.android.material.textfield.TextInputEditText
@@ -44,7 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:hint="Password"
+        android:hint="@string/password"
         android:textColorHint="@color/purpleForApp"
         app:boxBackgroundColor="@color/white"
         app:boxStrokeColor="@color/purpleForApp">
@@ -71,7 +70,7 @@
             android:paddingTop="8dp"
             android:paddingEnd="20dp"
             android:paddingBottom="8dp"
-            android:text="Next"
+            android:text="@string/next"
             android:textSize="18sp"
             app:backgroundTint="@color/purpleForApp" />
 
@@ -86,7 +85,7 @@
             android:paddingTop="8dp"
             android:paddingEnd="10dp"
             android:paddingBottom="8dp"
-            android:text="cancel"
+            android:text="@string/cancel"
             android:textColor="@color/purpleForApp"
             android:textSize="18sp"
             app:strokeColor="@color/purpleForApp"
