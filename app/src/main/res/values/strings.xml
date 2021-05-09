@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My-Fun-Fact</string>
+    <string name="app_name">Fun Fact</string>
     <string name="welcome_text">Learn fun facts of programming languages</string>
     <string name="welcome">welcome!</string>
     <string name="pick_a_language">Pick a language</string>
