@@ -61,7 +61,6 @@
         style="bold"
         android:textSize="17sp"
         android:lineHeight="25dp"
-        android:justificationMode="inter_word"
         />
 
 </LinearLayout>
