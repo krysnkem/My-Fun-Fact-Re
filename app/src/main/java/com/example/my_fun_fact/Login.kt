@@ -23,13 +23,15 @@ class Login : AppCompatActivity() {
         binding?.nextButton?.setOnClickListener(){
             val emailText =   binding?.emailEdittext?.text.toString()
             val passwordText =   binding?.passwordEdittext?.text.toString()
+            val email = "anyemail@gmail.com"
+            val password = "password123"
 
-            if (emailText == "krysnkem@gmail.com" && passwordText == "password123"){
+            if (emailText == email  && passwordText == password){
                 val intent = Intent(this,MainActivity::class.java )
-                Toast.makeText(this, "Welcome Christian",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Welcome User",Toast.LENGTH_SHORT).show()
                 startActivity(intent)
             }else
-                Toast.makeText(this, "Enter the correct email and password",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Enter the email: $email and password: $password",Toast.LENGTH_LONG).show()
         }
         binding?.cancelButton?.setOnClickListener(){
             binding?.emailEdittext?.text?.clear()
