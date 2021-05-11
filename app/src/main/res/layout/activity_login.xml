@@ -33,6 +33,7 @@
             android:id="@+id/email_edittext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/purpleForApp"
 
             />
 
@@ -45,13 +46,16 @@
         android:hint="@string/password"
         android:textColorHint="@color/purpleForApp"
         app:boxBackgroundColor="@color/white"
-        app:boxStrokeColor="@color/purpleForApp">
+        app:boxStrokeColor="@color/purpleForApp"
+        app:hintTextColor="@color/purpleForApp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password_edittext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
+            android:textColor="@color/deepPurple"
+
             />
 
     </com.google.android.material.textfield.TextInputLayout>

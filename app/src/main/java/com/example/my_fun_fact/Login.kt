@@ -38,4 +38,9 @@ class Login : AppCompatActivity() {
             binding?.passwordEdittext?.text?.clear()
         }
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        binding = null
+    }
 }

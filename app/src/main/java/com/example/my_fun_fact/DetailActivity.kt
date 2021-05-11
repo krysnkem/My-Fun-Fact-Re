@@ -1,7 +1,9 @@
 package com.example.my_fun_fact
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.my_fun_fact.R.color.deepPurple
 import com.example.my_fun_fact.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
@@ -23,6 +25,7 @@ class DetailActivity : AppCompatActivity() {
 
     private fun  setUpFactDetail(){
         binding?.detailTextView?.text = detail
+        binding?.detailTextView?.setTextColor(Color.DKGRAY)
         binding?.logoImageView?.setImageResource(logo)
         title = name
         binding?.textTop?.text = getString(R.string.return_text, name)
